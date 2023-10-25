@@ -1,0 +1,46 @@
+*{
+    color: #DEDEDE;
+    background-color: #191919;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 3px solid black;
+    padding: 5px;
+}
+li{
+    margin-bottom: 20px;
+}
+a{
+    padding: 5px;
+    border: 3px solid #DEDEDE;
+}
+th:hover, td:hover, a:hover{
+    background-color: #4D4D4D;
+    color: white;
+}
+input{
+    padding: 3px;
+}
+/* Jesuita */
+input[name="id"]{
+    width: 25px;
+    text-align: right;
+}
+input[name="nombre"]{
+    width: 250px;
+}
+input[name="firma"]{
+    width: 500px;
+}
+/* Lugar */
+input[name="ip"]{
+    width: 105px;
+}
+input[name="ciudad"]{
+    width: 250px;
+}
+input[name="descripcion"]{
+    width: 500px;
+}
